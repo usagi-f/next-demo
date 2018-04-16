@@ -1,7 +1,3 @@
-const about = () => (
-  <div>
-    <p>This is the about page</p>
-  </div>
-)
+import About from '../components/about'
 
-export default about
+export default About
