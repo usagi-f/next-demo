@@ -1,3 +1,5 @@
+import React from 'react'
+
 const About = () => (
   <div>
     <p>This is the about page</p>

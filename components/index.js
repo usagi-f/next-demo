@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import css from 'styled-jsx/css'
 
@@ -11,18 +12,18 @@ div {
 `
 
 const event = (msg) => {
-  alert(msg)
+  console.log(msg)
 }
 
 const Index = () => (
   <div>
     <p>Hello Next.js</p>
     <Link href="/about">
-      <a>About Page</a>
+      <a href>About Page</a>
     </Link>
     <button onClick={() => event('foo')}>click</button>
-    <br/>
-    <img src="/static/usagi.png" />
+    <br />
+    <img src="/static/usagi.png" alt="usagi" />
     <style jsx>{style}</style>
   </div>
 )
